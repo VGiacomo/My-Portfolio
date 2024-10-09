@@ -9,17 +9,15 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        My <span className="text-purple">values</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="I'm a team player"
+          icon={<AceternityIcon order="Trust" />}
+          des="I value trust as a core value in my professional interactions. I believe in clear communication, adaptability, and writing code that everyone can understand. Being a good team player means presenting thoughts clearly and taking feedback constructively."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,11 +26,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="I'm 100% Committed"
+          icon={<AceternityIcon order="Passion" />}
+          des="I'm very passionate about programming. I love exploring new technologies and constantly pushing my limits. I spend my personal time learning and growing because I enjoy the challenge."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -50,11 +46,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="I see the big picture"
+          icon={<AceternityIcon order="Business Acumen" />}
+          des="I understand the business context and how my work impacts the bottom line. I see the big picture, identify trends, and balance perfect code with business goals. My decisions prioritize speed, performance, maintainability, and cost."
         >
           <CanvasRevealEffect
             animationSpeed={3}
