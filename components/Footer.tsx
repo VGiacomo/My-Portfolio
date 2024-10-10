@@ -1,7 +1,8 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
-import MagicButton from "./ui/MagicButton";
+// import MagicButton from "./ui/MagicButton";
+import { Cover } from "./ui/Cover";
 
 const Footer = () => {
   return (
@@ -24,13 +25,22 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:giacomo.viscido@gmail.com">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
+        <div className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+          <Cover className="">
+            <a
+              href="mailto:giacomo.viscido@gmail.com"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              Let&apos;s get in touch
+              <FaLocationArrow className="ml-2" />
+              {/* <MagicButton
+              title="Let's get in touch"
+              icon={<FaLocationArrow />}
+              position="right"
+            /> */}
+            </a>
+          </Cover>
+        </div>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         {/* <p className="md:text-base text-sm md:font-normal font-light">
