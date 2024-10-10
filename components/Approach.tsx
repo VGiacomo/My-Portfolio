@@ -7,12 +7,12 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-10">
       <h1 className="heading">
         My <span className="text-purple">values</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="my-10 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
           title="I'm a team player"
@@ -181,6 +181,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
   );
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const Icon = ({ className, ...rest }: any) => {
   return (
     <svg
