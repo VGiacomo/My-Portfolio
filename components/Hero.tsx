@@ -2,6 +2,8 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { FlipWords } from "./ui/FlipWords";
+import { Stack } from "./Stack";
+import { StackOthers } from "./StackOthers";
 // import MagicButton from "./ui/MagicButton";
 // import { FaLocationArrow } from "react-icons/fa6";
 
@@ -55,6 +57,8 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Giacomo, a Full-Stack Developer based in Belgium.
           </p>
+          <Stack />
+          <StackOthers />
           {/* <a href="#about">
             <MagicButton
               title="Show my work"
