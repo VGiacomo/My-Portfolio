@@ -1,8 +1,7 @@
-import { FaLocationArrow } from "react-icons/fa6";
-
 import { socialMedia } from "@/data";
 // import MagicButton from "./ui/MagicButton";
 import { Cover } from "./ui/Cover";
+import { IoIosMail } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -29,10 +28,10 @@ const Footer = () => {
           <Cover className="">
             <a
               href="mailto:giacomo.viscido@gmail.com"
-              style={{ display: "flex", alignItems: "center" }}
+              style={{ display: "flex", alignItems: "end" }}
             >
               Let&apos;s get in touch
-              <FaLocationArrow className="ml-2" />
+              <IoIosMail className="ml-2" />
               {/* <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}

@@ -1,4 +1,4 @@
-⚡My new portfolio with Blog using Next.js, React, TypeScript, Tailwind CSS and Framer Motion⚡
+⚡My new portfolio with Blog using Next.js 14, React, TypeScript, Tailwind CSS and Framer Motion⚡
 
 After a diversified career including the management of tourist structures, I chose to devote myself to my first passion: programming. Enthusiastic about the development of innovative applications that transform our daily lives, I am constantly on the lookout for technological advances and love exploring new tools and emerging technologies.
 
