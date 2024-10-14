@@ -1,12 +1,15 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { FlipWords } from "./ui/FlipWords";
 // import MagicButton from "./ui/MagicButton";
 // import { FaLocationArrow } from "react-icons/fa6";
 
 const Hero = () => {
+  const words = ["Ideas", "Projects", "Designs", "Dreams"];
+
   return (
-    <div className="pb-10 pt-36">
+    <div className="pb-10 pt-12">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -34,21 +37,24 @@ const Hero = () => {
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             {/* Dynamic Web Magic with Next.js */}
           </p>
-
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *
            *  change md:text-6xl, add more responsive code
            */}
+          <div className="flex items-center text-center text-[40px] md:text-5xl lg:text-6xl">
+            <span>
+              <TextGenerateEffect words={"Transforming "} className="" />
+              <FlipWords className="" words={words} />
+            </span>
+          </div>
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words={"into Seamless User Experiences"}
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Giacomo, a Full-Stack Developer based in Belgium.
           </p>
-
           {/* <a href="#about">
             <MagicButton
               title="Show my work"
