@@ -100,14 +100,14 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://phenomenal-biscotti-b41686.netlify.app/",
   },
-  //   {
-  //     id: 4,
-  //     title: "Animated Apple Iphone 3D Website",
-  //     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //     img: "/p4.svg",
-  //     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //     link: "https://github.com/adrianhajdin/iphone",
-  //   },
+    {
+      id: 4,
+      title: "Smoothie Lab",
+      des: "Choose a recipe or make your own one ingredient at the time",
+      img: "Smoothie-lab.jpg",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      link: "https://smoothie-lab-4a78c.web.app/",
+    },
 ];
 
 // export const testimonials = [
